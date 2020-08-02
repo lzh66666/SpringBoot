@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "nuc.ss.pojo.Person",
+      "sourceType": "nuc.ss.pojo.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "nuc.ss.pojo.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "nuc.ss.pojo.Person"
+    },
+    {
+      "name": "person.dog",
+      "type": "nuc.ss.pojo.Dog",
+      "sourceType": "nuc.ss.pojo.Person"
+    },
+    {
+      "name": "person.happy",
+      "type": "java.lang.Boolean",
+      "sourceType": "nuc.ss.pojo.Person"
+    },
+    {
+      "name": "person.lists",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "nuc.ss.pojo.Person"
+    },
+    {
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "nuc.ss.pojo.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "nuc.ss.pojo.Person"
+    }
+  ],
+  "hints": []
+}

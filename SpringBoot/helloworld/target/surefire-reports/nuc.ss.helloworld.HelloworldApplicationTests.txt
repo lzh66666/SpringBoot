@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: nuc.ss.helloworld.HelloworldApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.727 s - in nuc.ss.helloworld.HelloworldApplicationTests

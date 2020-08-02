@@ -1,0 +1,47 @@
+server:
+  port: 8084
+# springboot这个配置文件中到底可以配置那些东西呢？
+
+# 官方的配置太多了
+
+#了解原理：一通百通
+
+#server:
+#  port: 8080
+
+# 对空格的要求十分高
+# 注入到我们的配置中
+
+#普通的key-value,代替name=qinjiang
+#name: qinjiang
+
+#对象,代替student.name=qinjiang student.age=3
+#student:
+#  name: qinjiang
+#  age: 3
+
+# 对象的行内写法
+#student2: {name:qinjiang,age:3}
+
+# 数组
+#pets:
+#  - cat
+#  - dog
+#  - pig
+
+# 数组的行内写法
+#pets2: [cat,dog,pig]
+
+person:
+  name: qinjiang${random.uuid}
+  age: ${random.int}
+  happy: false
+  birth: 2020/07/13
+  maps: {k1: v1,k2: v2}
+  lists:
+    - code
+    - music
+    - girl
+  dog:
+    name: ${person.hell:hello}_旺财
+    age: 3

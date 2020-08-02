@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: root
+    password: admin
+    #?serverTimezone=UTC解决时区的报错
+    url: jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#$ 整合mybatis
+mybatis:
+  type-aliases-package: nuc.ss.pojo
+  mapper-locations: classpath:mybatis/mapper/*.xml

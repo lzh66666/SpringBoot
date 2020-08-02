@@ -1,0 +1,22 @@
+server:
+  port: 8081
+#选择要激活那个环境块
+spring:
+  profiles:
+    active: test
+
+---
+server:
+  port: 8083
+spring:
+  profiles: dev #配置环境的名称
+
+
+---
+
+server:
+  port: 8084
+spring:
+  profiles: test  #配置环境的名称
+
+
